@@ -26,7 +26,7 @@ body main #img-div #image {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  max-width: 100%;
   height: auto;
   border-radius: 25px;
 }
@@ -79,5 +79,37 @@ body main .more-info {
 
 body main .more-info #tribute-link {
   color: white;
+}
+
+body footer {
+  background-color: #262626;
+  margin-top: 100px;
+  text-align: center;
+  padding: 25px;
+}
+
+body footer h4 {
+  padding: 5px;
+  margin: 0;
+  font-weight: 600;
+}
+
+body footer p {
+  margin: 0;
+  font-weight: 100;
+}
+
+body footer .icons {
+  cursor: pointer;
+  padding: 10px;
+}
+
+body footer .icons a {
+  text-decoration: none;
+  color: white;
+}
+
+body footer .icons a i {
+  padding: 5px;
 }
 /*# sourceMappingURL=index.css.map */

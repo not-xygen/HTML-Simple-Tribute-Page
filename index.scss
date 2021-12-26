@@ -96,4 +96,35 @@ body {
 
     }
 
+    footer {
+        background-color: $backgroundgrey;
+        margin-top: 100px;
+        text-align: center;
+        padding: 25px;
+        
+        h4 {
+            padding: 5px;
+            margin: 0;
+            font-weight: 600;
+        }
+        
+        p {
+            margin: 0;
+            font-weight: 100;
+        }
+
+        .icons {
+            cursor: pointer;
+            padding: 10px;
+
+            a {
+                text-decoration: none;
+                color: white;
+                i {
+                    padding: 5px;
+                }
+            }
+
+        } 
+    }
 }
